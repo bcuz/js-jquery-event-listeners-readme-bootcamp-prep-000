@@ -13,7 +13,7 @@ function frameIt() {
 }
 
 function submitIt() {
-  $('form').('submit', function() {
+  $('form').on('submit', function() {
     alert("Your form is going to be submitted now.")
   })
 }
