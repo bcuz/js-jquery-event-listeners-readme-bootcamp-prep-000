@@ -19,7 +19,11 @@ function submitIt() {
 }
 
 function pressIt() {
-  
+  $(document).on('keydown', function(key) {
+  if(key.which == 71){
+      alert('s was pressed');
+  }
+});
 }
 
 $(document).ready(function(){
