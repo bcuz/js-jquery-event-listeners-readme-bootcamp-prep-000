@@ -13,7 +13,9 @@ function frameIt() {
 }
 
 function submitIt() {
-  
+  $('form').('submit', function() {
+    
+  })
 }
 
 $(document).ready(function(){
