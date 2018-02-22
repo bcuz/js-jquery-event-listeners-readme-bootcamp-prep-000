@@ -1,6 +1,6 @@
 //define functions here
 
-$('p').on('click', function() {
+var getIt = $('p').on('click', function() {
   
 })
 
